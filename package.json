@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evavandongen/qr-code-component-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evavandongen/qr-code-component-main/issues"
+  },
+  "homepage": "https://github.com/evavandongen/qr-code-component-main#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
