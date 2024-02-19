@@ -1,31 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="images/png" sizes="32x32" href="./img/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="images/png" sizes="32x32" href="./img/favicon-32x32.png">
+<link rel="stylesheet" href="styles.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | QR code component</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
+<title>Frontend Mentor | QR code component</title>
 </head>
-<body class="bg-gray font-sans">
-    <main class="w-screen h-screen">
-      <section class="container h-full mx-auto p-5 flex flex-col justify-center items-center">
-        <div class="p-5 flex flex-col gap-5 w-full max-w-md bg-white rounded-lg">
-          <figure class="aspect-square w-full overflow-hidden rounded-default relative">
-            <img class="absolute top-1/2 -translate-y-1/2 left-0 w-full object-contain" src="./img/tailwind-logo.webp" alt="tailwind-logo">
-          </figure>
-          <div class="flex flex-col gap-5 px-5">
-            <h1 class="text-center">Tailwind Practices</h1>
-            <p class="text-center">Welcome! Check out the branches to view all my Tailwind practice projects</p>
-          </div>
-        </div>
-      </section>
+<body class="bg-eggshell font-sans text-charcoal font-light text-sm">
+    <main class="w-screen h-screen p-5 md:p-8">
+    <section class="bg-white p-5 md:p-8 w-full max-w-xl m-auto rounded-md flex flex-col gap-5">
+        <figure class="w-full h-60 relative">
+        <img src="img/image-omelette.jpeg" alt="" class="absolute left-0 top-0 w-full h-full object-cover">
+        </figure>
+
+        <section class="flex flex-col gap-4">
+        <h1 class="font-serif text-charcoal text-3xl">Simple Omelette Recipe</h1>
+        <p>Easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        </section>
+
+        <section class="bg-rose-white rounded-md p-4 flex flex-col gap-2">
+            <h2 class="text-dark-raspberry font-medium">Preparation time</h2>
+            <ul class="list-disc list-inside flex flex-col gap-2">
+                <li><span class="font-medium">Total:</span> Approximately 10 minutes</li>
+                <li><span class="font-medium">Preperation:</span> 5 minutes</li>
+                <li><span class="font-medium">Cooking:</span> 5 minutes</li>
+            </ul>
+        </section>
+
+        <section class="flex flex-col gap-4">
+            <h2 class="font-serif font-medium text-xl text-nutmeg">Ingredients</h2>
+            <ul class="list-disc list-inside flex flex-col gap-2 marker:text-nutmeg">
+                <li>2-3 large eggs</li>
+                <li>Salt, to taste</li>
+                <li>Pepper, to tast</li>
+                <li>1 tablespoon of butter or oil</li>
+                <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <section class="flex flex-col gap-4">
+            <h2 class="font-serif font-medium text-xl text-nutmeg">Instructions</h2>
+            <ol class="list-decimal list-outside flex flex-col gap-2 marker:text-nutmeg marker:font-medium pl-5">
+                <li><span class="font-medium">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+                <li><span class="font-medium">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                <li><span class="font-medium">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+                <li><span class="font-medium">Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                <li><span class="font-medium">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+                <li><span class="font-medium">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+            </ol>
+        </section>
+
+        <hr/>
+
+        <section class="flex flex-col gap-4">
+            <h2 class="font-serif font-medium text-xl text-nutmeg">Nutrition</h2>
+            <p>The table below shows nutritional values per serving without additional fillings.</p>
+            <table>
+                <tbody>
+                    <tr class="border-b border-gray-light">
+                        <td class="py-2 px-5">
+                            Calories
+                        </td>
+                        <td class="py-2 px-5 font-medium text-nutmeg">
+                            277kcal
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-light">
+                        <td class="py-2 px-5">
+                            Carbs
+                        </td>
+                        <td class="py-2 px-5 font-medium text-nutmeg">
+                            0g
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-light">
+                        <td class="py-2 px-5">
+                            Protein
+                        </td>
+                        <td class="py-2 px-5 font-medium text-nutmeg">
+                            20g
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-5">
+                            Fat
+                        </td>
+                        <td class="py-2 px-5 font-medium text-nutmeg">
+                            22g
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
     </main>
 </body>
 </html>
