@@ -9,13 +9,13 @@ module.exports = {
             'lg': '20px'
         },
         colors: {
-            'white': 'hsl(0,0%,100%)',
-            'gray': 'hsl(212, 45%, 89%)',
-            'blue': 'hsl(220, 15%, 55%)',
-            'blue-dark': 'hsl(218, 44%, 22%)',
+            'white': 'hsl(0, 0%, 100%)',
+            'light-pink': 'hsl(275, 100%, 97%)',
+            'grayish-purple': 'hsl(292, 16%, 49%)',
+            'dark-purple': 'hsl(292, 42%, 14%)'
         },
         fontFamily: {
-            sans: ['Outfit', 'sans-serif'],
+            sans: ['Work Sans', 'sans-serif'],
         },
         screens: {
             'sm': '480px',
