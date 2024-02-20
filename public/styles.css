@@ -737,6 +737,26 @@ video {
   color: hsl(0 100% 67% / var(--tw-text-opacity));
 }
 
+.focus-within\:border-purple:focus-within {
+  --tw-border-opacity: 1;
+  border-color: hsl(259 100% 65% / var(--tw-border-opacity));
+}
+
+.focus\:border-gray:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 86% / var(--tw-border-opacity));
+}
+
+.focus\:border-purple:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(259 100% 65% / var(--tw-border-opacity));
+}
+
+.focus\:border-red:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 100% 67% / var(--tw-border-opacity));
+}
+
 @media (min-width: 480px) {
   .sm\:p-10 {
     padding: 2.5rem;
