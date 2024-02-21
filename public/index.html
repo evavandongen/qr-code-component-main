@@ -16,10 +16,13 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body class="bg-light-pink font-sans text-dark-purple">
-      <main class="w-screen h-screen p-10 md:p-20 relative">
+      <main class="w-screen h-screen relative flex items-center justify-center">
         <figure class="absolute top-0 left-0 -z-10 w-full object-cover">
-          <img src="img/background-pattern-desktop.svg" alt="background pattern" class="hidden sm:block w-full h-full">
-          <img src="img/background-pattern-mobile.svg" alt="background pattern" class="block sm:hidden w-full h-full">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/background-pattern-desktop.svg" />
+            <source media="(max-width: 767px)" srcset="img/background-pattern-mobile.svg" />
+            <img src="img/background-pattern-mobile.svg" alt="background pattern" class="w-full h-full">
+          </picture>
         </figure>
         <section class="bg-white w-full m-auto max-w-md p-5 md:p-8 rounded-md flex flex-col gap-5">
           <header class="w-full flex gap-5 items-center">
